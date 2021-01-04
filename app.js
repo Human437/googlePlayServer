@@ -46,6 +46,4 @@ app.get('/apps',(req,res)=>{
   res.json(STORE);
 })
 
-app.listen(8000, ()=>{
-  console.log('Server is started on Port 8000')
-})
+module.exports = app;
